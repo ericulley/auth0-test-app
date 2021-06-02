@@ -1,6 +1,32 @@
 body {
   background-color: #eee;
-  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  margin: 0 1em;
+}
+
+#auth-panel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#results-container {
+  background-color: darkgray;
+  text-align: start;
+  width: 50%;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 1em;
 }
 
 
